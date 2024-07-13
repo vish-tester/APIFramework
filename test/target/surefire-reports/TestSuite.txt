@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 20.465 s <<< FAILURE! - in TestSuite
+ApiTestRevise.ApitestCases.checkReq  Time elapsed: 1.447 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at ApiTestRevise.ApitestCases.checkReq(ApitestCases.java:138)
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-12T02:17:20 IST" name="Suite" finished-at="2024-07-12T02:17:31 IST" duration-ms="11116">
+    <groups>
+    </groups>
+    <test started-at="2024-07-12T02:17:20 IST" name="Test" finished-at="2024-07-12T02:17:31 IST" duration-ms="11116">
+      <class name="ApiTestRevise.ApitestCases">
+        <test-method is-config="true" signature="premsteps()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:20 IST" name="premsteps" finished-at="2024-07-12T02:17:20 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- premsteps -->
+        <test-method signature="postAPI()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:20 IST" name="postAPI" finished-at="2024-07-12T02:17:23 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPI -->
+        <test-method signature="getAfterPost()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:23 IST" name="getAfterPost" finished-at="2024-07-12T02:17:24 IST" depends-on-methods="ApiTestRevise.ApitestCases.postAPI" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAfterPost -->
+        <test-method signature="getJWT()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:24 IST" name="getJWT" finished-at="2024-07-12T02:17:25 IST" depends-on-methods="ApiTestRevise.ApitestCases.getAfterPost" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getJWT -->
+        <test-method signature="getPut()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:25 IST" name="getPut" finished-at="2024-07-12T02:17:27 IST" depends-on-methods="ApiTestRevise.ApitestCases.getJWT" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPut -->
+        <test-method signature="patchReq()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:27 IST" name="patchReq" finished-at="2024-07-12T02:17:28 IST" depends-on-methods="ApiTestRevise.ApitestCases.getPut" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchReq -->
+        <test-method signature="delReq()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:28 IST" name="delReq" finished-at="2024-07-12T02:17:29 IST" depends-on-methods="ApiTestRevise.ApitestCases.patchReq" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delReq -->
+        <test-method signature="checkReq()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:29 IST" name="checkReq" finished-at="2024-07-12T02:17:31 IST" depends-on-methods="ApiTestRevise.ApitestCases.delReq" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReq -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ApiTestRevise.ApitestCases@3b69e7d1]" started-at="2024-07-12T02:17:31 IST" name="cleanUp" finished-at="2024-07-12T02:17:31 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ApiTestRevise.ApitestCases -->
+      <class name="basePack.VishBaseClass">
+        <test-method is-config="true" signature="setExtentConfig()[pri:0, instance:basePack.VishBaseClass@206a70ef]" started-at="2024-07-12T02:17:20 IST" name="setExtentConfig" finished-at="2024-07-12T02:17:20 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentConfig -->
+        <test-method is-config="true" signature="removeExtentConfig()[pri:0, instance:basePack.VishBaseClass@206a70ef]" started-at="2024-07-12T02:17:31 IST" name="removeExtentConfig" finished-at="2024-07-12T02:17:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeExtentConfig -->
+      </class> <!-- basePack.VishBaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

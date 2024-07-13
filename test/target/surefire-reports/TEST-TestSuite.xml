@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.465" tests="12" errors="0" skipped="5" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\workspace\test\target\test-classes;C:\workspace\test\target\classes;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vishal Singh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vishal Singh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vishal Singh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Vishal Singh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Vishal Singh\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Vishal Singh\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\Vishal Singh\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Vishal Singh\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Vishal Singh\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Vishal Singh\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Vishal Singh\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Vishal Singh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Vishal Singh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vishal Singh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vishal Singh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vishal Singh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Vishal Singh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vishal Singh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Vishal Singh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Vishal Singh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Vishal Singh\AppData\Local\Temp\surefire9163142312829372688\surefirebooter4125440139072692243.jar C:\Users\Vishal Singh\AppData\Local\Temp\surefire9163142312829372688 2024-07-12T01-03-22_478-jvmRun1 surefire15792806420215402962tmp surefire_0117042411220622330tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\workspace\test\target\test-classes;C:\workspace\test\target\classes;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Vishal Singh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Vishal Singh\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Vishal Singh\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Vishal Singh\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Vishal Singh\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Vishal Singh\.m2\repository\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;C:\Users\Vishal Singh\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\Vishal Singh\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\Vishal Singh\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Vishal Singh\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\Vishal Singh\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\Vishal Singh\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Vishal Singh\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Vishal Singh\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Vishal Singh\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Vishal Singh\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Vishal Singh\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Vishal Singh\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Vishal Singh\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Vishal Singh\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Vishal Singh\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Vishal Singh\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Vishal Singh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\workspace\test"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Vishal Singh\AppData\Local\Temp\surefire9163142312829372688\surefirebooter4125440139072692243.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="Vishal Singh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Vishal Singh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VISHAL~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="C:\workspace\test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Vishal Singh\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Vishal Singh\AppData\Local\Programs\Python\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Groovy\bin;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Vishal Singh\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Vishal Singh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vishal Singh\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="postAPI" classname="ApiTestRevise.ApitestCases" time="3.433">
+    <system-out><![CDATA[933
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getAfterPost" classname="ApiTestRevise.ApitestCases" time="1.289"/>
+  <testcase name="getJWT" classname="ApiTestRevise.ApitestCases" time="1.355">
+    <system-out><![CDATA[fa537bc6c602b21
+]]></system-out>
+  </testcase>
+  <testcase name="getPut" classname="ApiTestRevise.ApitestCases" time="1.529">
+    <system-out><![CDATA[{"firstname":"Specflow","lastname":"Selenium C#","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"super bowls"}
+]]></system-out>
+  </testcase>
+  <testcase name="patchReq" classname="ApiTestRevise.ApitestCases" time="1.55"/>
+  <testcase name="delReq" classname="ApiTestRevise.ApitestCases" time="1.522"/>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="0">
+    <skipped message="expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="0">
+    <skipped message="expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="0">
+    <skipped message="expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="0">
+    <skipped message="expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="0">
+    <skipped message="expected [true] but found [false]"/>
+  </testcase>
+  <testcase name="checkReq" classname="ApiTestRevise.ApitestCases" time="1.447">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at ApiTestRevise.ApitestCases.checkReq(ApitestCases.java:138)
+]]></failure>
+  </testcase>
+</testsuite>
