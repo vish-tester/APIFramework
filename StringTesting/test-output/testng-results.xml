@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T00:21:55 IST" name="Default suite" finished-at="2024-07-22T00:22:15 IST" duration-ms="19931">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T00:21:55 IST" name="Default test" finished-at="2024-07-22T00:22:15 IST" duration-ms="19931">
+      <class name="com.ui.tests.UIGoogleTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.UIGoogleTests@431f1eaf]" started-at="2024-07-22T00:21:55 IST" name="setUp" finished-at="2024-07-22T00:21:55 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMethod()[pri:0, instance:com.ui.tests.UIGoogleTests@431f1eaf]" started-at="2024-07-22T00:21:55 IST" name="testMethod" finished-at="2024-07-22T00:21:56 IST" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="openSearchResults()[pri:0, instance:com.ui.tests.UIGoogleTests@431f1eaf]" started-at="2024-07-22T00:21:56 IST" name="openSearchResults" finished-at="2024-07-22T00:21:59 IST" depends-on-methods="com.ui.tests.UIGoogleTests.testMethod" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSearchResults -->
+        <test-method signature="getBrokenLinksTest()[pri:0, instance:com.ui.tests.UIGoogleTests@431f1eaf]" started-at="2024-07-22T00:21:59 IST" name="getBrokenLinksTest" finished-at="2024-07-22T00:22:14 IST" depends-on-methods="com.ui.tests.UIGoogleTests.openSearchResults" duration-ms="15725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrokenLinksTest -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.ui.tests.UIGoogleTests@431f1eaf]" started-at="2024-07-22T00:22:14 IST" name="cleanUp" finished-at="2024-07-22T00:22:15 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.ui.tests.UIGoogleTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
